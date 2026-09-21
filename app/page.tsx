@@ -14,6 +14,9 @@ export default function Home() {
       >
         Get started
       </Link>
+      <Link href="/demo" className="text-sm underline">
+        See a live demo (no signup)
+      </Link>
     </main>
   );
 }
