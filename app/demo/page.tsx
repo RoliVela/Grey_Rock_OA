@@ -9,7 +9,7 @@ export default async function DemoPage() {
     .eq("is_demo", true);
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-2xl flex-col gap-6 p-8">
+    <main className="mx-auto flex flex-1 max-w-2xl flex-col gap-6 p-8">
       <div>
         <h1 className="text-2xl font-semibold">Try the matching, no signup needed</h1>
         <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">

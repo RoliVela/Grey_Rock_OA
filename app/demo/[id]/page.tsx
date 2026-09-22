@@ -29,7 +29,7 @@ export default async function DemoResultsPage({
   const matches = await getBusinessMatches(id);
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-2xl flex-col gap-6 p-8">
+    <main className="mx-auto flex flex-1 max-w-2xl flex-col gap-6 p-8">
       <Link href="/demo" className="text-sm underline">
         ← All personas
       </Link>

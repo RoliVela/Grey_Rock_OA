@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="mx-auto flex min-h-screen max-w-md flex-col items-center justify-center gap-6 p-8 text-center">
+    <main className="mx-auto flex flex-1 max-w-md flex-col items-center justify-center gap-6 p-8 text-center">
       <h1 className="text-3xl font-semibold">Grey Rock Dallas</h1>
       <p className="text-zinc-600 dark:text-zinc-400">
         Tell us about your family and we&apos;ll match you with recommended

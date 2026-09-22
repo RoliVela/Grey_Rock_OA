@@ -39,7 +39,7 @@ export default function SignupPage() {
 
   if (needsConfirmation) {
     return (
-      <main className="mx-auto flex min-h-screen max-w-sm flex-col justify-center gap-3 p-8 text-center">
+      <main className="mx-auto flex flex-1 max-w-sm flex-col justify-center gap-3 p-8 text-center">
         <h1 className="text-xl font-semibold">Check your email</h1>
         <p className="text-zinc-600 dark:text-zinc-400">
           Confirm your address, then sign in to continue.
@@ -49,7 +49,7 @@ export default function SignupPage() {
   }
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-sm flex-col justify-center gap-6 p-8">
+    <main className="mx-auto flex flex-1 max-w-sm flex-col justify-center gap-6 p-8">
       <h1 className="text-2xl font-semibold">Create your account</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <label className="flex flex-col gap-1 text-sm">
